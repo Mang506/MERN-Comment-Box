@@ -1,0 +1,9 @@
+{
+  "name": "MERN-tut",
+  "version": "1.0.0",
+  "description": "MERN comment box tutorial",
+  "main": "index.js",
+  "repository": "https://github.com/Mang506/MERN-Comment-Box",
+  "author": "Matt Rubly",
+  "license": "MIT"
+}
