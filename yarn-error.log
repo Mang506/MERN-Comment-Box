@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js init
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add express body-parser nodemon morgan mongoose concurrently babel-cli bable-preset-es2015 babel-preset-stage-0
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
@@ -14,20 +14,28 @@ Platform:
   linux x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:126002:13)
-      at emitNone (events.js:106:13)
-      at Interface.emit (events.js:208:7)
-      at Interface._ttyWrite (readline.js:775:16)
-      at ReadStream.onkeypress (readline.js:160:10)
+  Error: https://registry.yarnpkg.com/bable-preset-es2015: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:137468:22)
       at emitTwo (events.js:126:13)
-      at ReadStream.emit (events.js:214:7)
-      at emitKeys (internal/readline.js:420:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1011:36)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:138440:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
 
 npm manifest: 
-  No manifest
+  {
+    "name": "MERN-tut",
+    "version": "1.0.0",
+    "description": "MERN comment box tutorial",
+    "main": "index.js",
+    "repository": "https://github.com/Mang506/MERN-Comment-Box",
+    "author": "Matt Rubly",
+    "license": "MIT"
+  }
 
 yarn manifest: 
   No manifest
